@@ -1,0 +1,3 @@
+#!/bin/bash
+per=$(stat -c "%a" olleh)
+chmod $per hello
