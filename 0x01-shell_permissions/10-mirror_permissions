@@ -1,3 +1,2 @@
 #!/bin/bash
-per=$(stat -c "%a" olleh)
-chmod $per hello
+chmod (stat -c "%a" olleh) hello
